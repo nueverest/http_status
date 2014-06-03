@@ -1,10 +1,8 @@
-# ----------------------------------------------------------------------------
-# "THE BEER-WARE LICENSE" (Revision 42):
-# <Chad Nelson> wrote this file. As long as you retain this notice you
-# can do whatever you want with this stuff. If we meet some day, and you think
-# this stuff is worth it, you can buy me hot coco in return Chad Nelson.
-# ----------------------------------------------------------------------------
+#!/usr/bin/env python
+# written by Daniel Oaks <daniel@danieloaks.net>, Chad Nelson
+# licensed under the BSD 2-clause license
 __author__ = 'Chad Nelson'
+
 from unittest import TestCase, main
 from http_status import Status, NoneStatus
 from formencode import Invalid
